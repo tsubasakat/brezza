@@ -6,52 +6,52 @@ if version > 580
   endif
 endif
 
-let g:colors_name = "Stage"
+let g:colors_name = "leggera"
 
 if &t_Co > 255
 
 """ Syntax
 
-  hi Comment        ctermfg=59
+  hi Comment            ctermfg=59
 
-  hi Constant       ctermfg=229
-  hi String         ctermfg=195
-  hi Character      ctermfg=195
-  hi Number         ctermfg=118
-  hi Boolean        ctermfg=118
-  hi Float          ctermfg=118
+  hi Constant           ctermfg=229
+  hi String             ctermfg=195
+  hi Character          ctermfg=195
+  hi Number             ctermfg=118
+  hi Boolean            ctermfg=118
+  hi Float              ctermfg=118
 
-  hi Identifier     ctermfg=077
-  hi Function       ctermfg=123
+  hi Identifier         ctermfg=077
+  hi Function           ctermfg=123
 
-  hi Statement      ctermfg=205
-  hi Conditional    ctermfg=198
-  hi Repeat         ctermfg=198
+  hi Statement          ctermfg=205
+  hi Conditional        ctermfg=198
+  hi Repeat             ctermfg=198
 "  hi Label          ctermfg=
-  hi Operator       ctermfg=231
+  hi Operator           ctermfg=231
 "  hi Keyword        ctermfg=
-  hi Exception      ctermfg=196
+  hi Exception          ctermfg=196
 
 
-  hi PreProc        ctermfg=205
+  hi PreProc            ctermfg=205
 "  hi Include
 "  hi Define
 "  hi Macro
 "  hi PreCondit
 
-  hi Type           ctermfg=123
+  hi Type               ctermfg=123
 "  hi StorageClass
 "  hi Structure
 "  hi Typedef
 
-  hi Special        ctermfg=225
+  hi Special            ctermfg=225
 "  hi SpecialChar
 "  hi Tag
-  hi Delimiter      ctermfg=205
+  hi Delimiter          ctermfg=205
 "  hi SpecialComment
 "  hi Debug
 
-  hi Underlined     term=underline cterm=underline ctermfg=201
+  hi Underlined         term=underline cterm=underline ctermfg=201
 
 "  hi Ignore
 
@@ -59,7 +59,7 @@ if &t_Co > 255
 
 """ 
 
-hi Todo           term=standout ctermfg=194 ctermbg=077
+hi Todo                 term=standout ctermfg=194 ctermbg=077
 
 "  hi ColorColumn
 "  hi Conceal
@@ -72,25 +72,25 @@ hi Todo           term=standout ctermfg=194 ctermbg=077
 "  hi DiffChange
 "  hi DiffDelete
 "  hi DiffText
-  hi EndOfBuffer    ctermbg=none
-"  hi ErrorMsg
-"  hi VertSplit
-  hi Folded         ctermbg=none
+  hi EndOfBuffer        ctermbg=none
+  hi ErrorMsg           cterm=standout ctermfg=198 ctermbg=255
+  hi VertSplit          ctermfg=244 ctermbg=244
+  hi Folded             ctermbg=none
 "  hi FoldColumn
-  hi SignColumn     term=standout ctermfg=205 ctermbg=235
+  hi SignColumn         term=standout ctermfg=205 ctermbg=235
 "  hi IncSearch
-  hi LineNr         ctermfg=123 ctermbg=none
-  hi CursorLineNr   ctermfg=205
-  hi MatchParen     cterm=reverse ctermfg=205 ctermbg=123
-  hi ModeMsg        ctermfg=205
-  hi MoreMsg        ctermfg=123
-  hi NonText        ctermbg=none
-  hi Normal         ctermfg=253
+  hi LineNr             ctermfg=123 ctermbg=none
+  hi CursorLineNr       ctermfg=205
+  hi MatchParen         cterm=reverse ctermfg=205 ctermbg=123
+  hi ModeMsg            ctermfg=205
+  hi MoreMsg            ctermfg=123
+  hi NonText            ctermbg=none
+  hi Normal             ctermfg=253
 "  hi Pmenu
 "  hi PmenuSel
 "  hi PmenuSbar
 "  hi PmenuThumb
-  hi Question       ctermfg=205
+  hi Question           ctermfg=205
 "  hi QuickFixLine
 "  hi Search
 "  hi SpecialKey
@@ -98,18 +98,18 @@ hi Todo           term=standout ctermfg=194 ctermbg=077
 "  hi SpellCap
 "  hi SpellLocal
 "  hi SpellRare
-  hi StatusLine     term=reverse ctermfg=235 ctermbg=096
-  hi StatusLineNC   term=reverse ctermfg=235 ctermbg=073
+  hi StatusLine         term=reverse ctermfg=241 ctermbg=219
+  hi StatusLineNC       term=reverse ctermfg=241 ctermbg=195
 "  hi StatusLineTerm
 "  hi StatusLineTermNC
 "  hi TabLine
 "  hi TabLineFill
 "  hi TabLineSel
 "  hi Terminal
-"  hi Title
-  hi Visual         term=reverse ctermbg=240
+  hi Title              cterm=bold ctermfg=195 ctermfg=none
+  hi Visual             term=reverse ctermbg=240
 "  hi VisualNOS
-"  hi WarningMsg
+  hi WarningMsg         cterm=standout ctermfg=198 ctermbg=255
 "  hi WildMenu
 endif
 
