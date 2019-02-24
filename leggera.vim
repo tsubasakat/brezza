@@ -14,22 +14,22 @@ if &t_Co > 255
 
   hi Comment            ctermfg=59
 
-  hi Constant           ctermfg=229
+  hi Constant           ctermfg=215
   hi String             ctermfg=195
   hi Character          ctermfg=195
   hi Number             ctermfg=118
-  hi Boolean            ctermfg=118
+  hi Boolean            ctermfg=196
   hi Float              ctermfg=118
 
-  hi Identifier         ctermfg=077
+  hi Identifier         ctermfg=112
   hi Function           ctermfg=123
 
   hi Statement          ctermfg=205
   hi Conditional        ctermfg=198
   hi Repeat             ctermfg=198
-"  hi Label          ctermfg=
+"  hi Label
   hi Operator           ctermfg=231
-"  hi Keyword        ctermfg=
+"  hi Keyword
   hi Exception          ctermfg=196
 
 
@@ -51,7 +51,7 @@ if &t_Co > 255
 "  hi SpecialComment
 "  hi Debug
 
-  hi Underlined         term=underline cterm=underline ctermfg=201
+  hi Underlined         cterm=underline ctermfg=196
 
 "  hi Ignore
 
@@ -59,7 +59,7 @@ if &t_Co > 255
 
 """ 
 
-hi Todo                 term=standout ctermfg=194 ctermbg=077
+hi Todo                 cterm=underline ctermfg=226 ctermbg=100
 
 "  hi ColorColumn
 "  hi Conceal
@@ -77,7 +77,7 @@ hi Todo                 term=standout ctermfg=194 ctermbg=077
   hi VertSplit          ctermfg=244 ctermbg=244
   hi Folded             ctermbg=none
 "  hi FoldColumn
-  hi SignColumn         term=standout ctermfg=205 ctermbg=235
+  hi SignColumn         cterm=standout ctermfg=235 ctermbg=205 
 "  hi IncSearch
   hi LineNr             ctermfg=123 ctermbg=none
   hi CursorLineNr       ctermfg=205
@@ -98,8 +98,8 @@ hi Todo                 term=standout ctermfg=194 ctermbg=077
 "  hi SpellCap
 "  hi SpellLocal
 "  hi SpellRare
-  hi StatusLine         term=reverse ctermfg=241 ctermbg=219
-  hi StatusLineNC       term=reverse ctermfg=241 ctermbg=195
+  hi StatusLine         cterm=reverse ctermfg=241 ctermbg=219
+  hi StatusLineNC       cterm=reverse ctermfg=241 ctermbg=195
 "  hi StatusLineTerm
 "  hi StatusLineTermNC
 "  hi TabLine
