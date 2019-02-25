@@ -1,6 +1,6 @@
 # Brezza colour scheme for Vim
 
-[Screen_shot](https://github.com/tsubasakat/brezza/blob/master/Screen_shot.png)
+![Screen_shot](https://github.com/tsubasakat/brezza/blob/master/Screen_shot.png)
 
 Brezza is a colour scheme for Vim.
 
