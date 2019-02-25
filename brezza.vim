@@ -63,7 +63,7 @@ if &t_Co > 255
 
 """ 
 
-hi Todo                 cterm=underline ctermfg=015 ctermbg=244
+  hi Todo               cterm=underline ctermfg=015 ctermbg=244
 
 "  hi ColorColumn
 "  hi Conceal
@@ -102,19 +102,19 @@ hi Todo                 cterm=underline ctermfg=015 ctermbg=244
 "  hi SpellCap
 "  hi SpellLocal
 "  hi SpellRare
-  hi StatusLine         cterm=reverse ctermfg=241 ctermbg=219
-  hi StatusLineNC       cterm=reverse ctermfg=241 ctermbg=195
+  hi StatusLine         cterm=reverse ctermfg=240 ctermbg=251
+  hi StatusLineNC       cterm=reverse ctermfg=240 ctermbg=248
 "  hi StatusLineTerm
 "  hi StatusLineTermNC
-  hi TabLine            cterm=reverse ctermfg=241 ctermbg=255
-  hi TabLineFill        cterm=reverse ctermfg=241
-  hi TabLineSel         cterm=bold,reverse ctermfg=241 ctermbg=219
+  hi TabLine            cterm=reverse ctermfg=240 ctermbg=248
+  hi TabLineFill        cterm=reverse ctermfg=240
+  hi TabLineSel         cterm=bold,reverse ctermfg=240 ctermbg=251
 "  hi Terminal
   hi Title              cterm=bold ctermfg=195 ctermfg=none
   hi Visual             term=reverse ctermbg=240
 "  hi VisualNOS
   hi WarningMsg         cterm=standout ctermfg=198 ctermbg=255
-"  hi WildMenu
+  hi WildMenu           cterm=reverse ctermfg=240 ctermbg=255
 endif
 
 set background=dark
