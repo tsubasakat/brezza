@@ -1,4 +1,4 @@
-""" Reset
+""" Reset existing colour
 
 if version > 580
   if exists("syntax_on")
@@ -6,7 +6,11 @@ if version > 580
   endif
 endif
 
-let g:colors_name = "leggera"
+let g:colors_name = "brezza"
+
+
+
+""" For colour terminals
 
 if &t_Co > 255
 
@@ -14,32 +18,32 @@ if &t_Co > 255
 
   hi Comment            ctermfg=59
 
-  hi Constant           ctermfg=215
-  hi String             ctermfg=195
-  hi Character          ctermfg=195
-  hi Number             ctermfg=118
-  hi Boolean            ctermfg=196
-  hi Float              ctermfg=118
+  hi Constant           ctermfg=086
+  hi String             ctermfg=251
+  hi Character          ctermfg=251
+  hi Number             ctermfg=112
+  hi Boolean            ctermfg=198
+  hi Float              ctermfg=112
 
   hi Identifier         ctermfg=112
-  hi Function           ctermfg=123
+  hi Function           ctermfg=079
 
-  hi Statement          ctermfg=205
-  hi Conditional        ctermfg=198
-  hi Repeat             ctermfg=198
+  hi Statement          ctermfg=218
+"  hi Conditional
+"  hi Repeat
 "  hi Label
-  hi Operator           ctermfg=231
+  hi Operator           ctermfg=251
 "  hi Keyword
   hi Exception          ctermfg=196
 
 
-  hi PreProc            ctermfg=205
+  hi PreProc            ctermfg=211
 "  hi Include
 "  hi Define
 "  hi Macro
 "  hi PreCondit
 
-  hi Type               ctermfg=123
+  hi Type               ctermfg=079
 "  hi StorageClass
 "  hi Structure
 "  hi Typedef
@@ -59,7 +63,7 @@ if &t_Co > 255
 
 """ 
 
-hi Todo                 cterm=underline ctermfg=226 ctermbg=100
+hi Todo                 cterm=underline ctermfg=015 ctermbg=244
 
 "  hi ColorColumn
 "  hi Conceal
@@ -67,25 +71,25 @@ hi Todo                 cterm=underline ctermfg=226 ctermbg=100
 "  hi CursorIM
 "  hi CursorColumn
 "  hi CursorLine
-"  hi Directory
+  hi Directory          ctermfg=251
 "  hi DiffAdd
 "  hi DiffChange
 "  hi DiffDelete
 "  hi DiffText
-  hi EndOfBuffer        ctermbg=none
+  hi EndOfBuffer        ctermfg=205 ctermbg=none
   hi ErrorMsg           cterm=standout ctermfg=198 ctermbg=255
   hi VertSplit          ctermfg=244 ctermbg=244
   hi Folded             ctermbg=none
 "  hi FoldColumn
-  hi SignColumn         cterm=standout ctermfg=235 ctermbg=205 
+  hi SignColumn         cterm=standout ctermfg=235 ctermbg=205
 "  hi IncSearch
-  hi LineNr             ctermfg=123 ctermbg=none
+  hi LineNr             ctermfg=079 ctermbg=none
   hi CursorLineNr       ctermfg=205
   hi MatchParen         cterm=reverse ctermfg=205 ctermbg=123
   hi ModeMsg            ctermfg=205
   hi MoreMsg            ctermfg=123
-  hi NonText            ctermbg=none
-  hi Normal             ctermfg=253
+  hi NonText            ctermfg=251 ctermbg=none
+  hi Normal             ctermfg=251
 "  hi Pmenu
 "  hi PmenuSel
 "  hi PmenuSbar
