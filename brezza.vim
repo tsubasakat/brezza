@@ -76,7 +76,7 @@ hi Todo                 cterm=underline ctermfg=015 ctermbg=244
 "  hi DiffChange
 "  hi DiffDelete
 "  hi DiffText
-  hi EndOfBuffer        ctermfg=205 ctermbg=none
+  hi EndOfBuffer        ctermfg=79 ctermbg=none
   hi ErrorMsg           cterm=standout ctermfg=198 ctermbg=255
   hi VertSplit          ctermfg=244 ctermbg=244
   hi Folded             ctermbg=none
@@ -90,14 +90,14 @@ hi Todo                 cterm=underline ctermfg=015 ctermbg=244
   hi MoreMsg            ctermfg=123
   hi NonText            ctermfg=251 ctermbg=none
   hi Normal             ctermfg=251
-"  hi Pmenu
-"  hi PmenuSel
+  hi Pmenu              cterm=reverse ctermfg=240 ctermbg=255
+  hi PmenuSel           cterm=reverse ctermfg=245 ctermbg=255
 "  hi PmenuSbar
 "  hi PmenuThumb
   hi Question           ctermfg=205
 "  hi QuickFixLine
 "  hi Search
-"  hi SpecialKey
+  hi SpecialKey         ctermfg=205
 "  hi SpellBad
 "  hi SpellCap
 "  hi SpellLocal
@@ -106,9 +106,9 @@ hi Todo                 cterm=underline ctermfg=015 ctermbg=244
   hi StatusLineNC       cterm=reverse ctermfg=241 ctermbg=195
 "  hi StatusLineTerm
 "  hi StatusLineTermNC
-"  hi TabLine
-"  hi TabLineFill
-"  hi TabLineSel
+  hi TabLine            cterm=reverse ctermfg=241 ctermbg=255
+  hi TabLineFill        cterm=reverse ctermfg=241
+  hi TabLineSel         cterm=bold,reverse ctermfg=241 ctermbg=219
 "  hi Terminal
   hi Title              cterm=bold ctermfg=195 ctermfg=none
   hi Visual             term=reverse ctermbg=240
