@@ -59,7 +59,7 @@ if &t_Co > 255
 
 "  hi Ignore
 
-"  hi Error
+  hi Error              cterm=underline ctermfg=196 ctermbg=none
 
 """ 
 
