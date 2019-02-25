@@ -1,5 +1,7 @@
 # Brezza colour scheme for Vim
 
+[Screen_shot](https://github.com/tsubasakat/brezza/blob/master/Screen_shot.png)
+
 Brezza is a colour scheme for Vim.
 
 Only 256-colour terminals and dark background theme are supported for the present.
