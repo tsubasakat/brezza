@@ -84,7 +84,7 @@ if &t_Co > 255
   hi SignColumn         cterm=standout ctermfg=235 ctermbg=205
 "  hi IncSearch
   hi LineNr             ctermfg=073 ctermbg=none
-  hi CursorLineNr       ctermfg=175
+  hi CursorLineNr       ctermfg=212 ctermbg=242
   hi MatchParen         cterm=reverse ctermfg=205 ctermbg=123
   hi ModeMsg            ctermfg=175
   hi MoreMsg            ctermfg=073
