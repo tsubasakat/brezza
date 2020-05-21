@@ -16,39 +16,38 @@ if &t_Co > 255
 
 """ Syntax
 
-  hi Comment            ctermfg=246
+  hi Comment            ctermfg=248
 
-  hi Constant           ctermfg=073
-  hi String             ctermfg=251
-  hi Character          ctermfg=251
+  hi Constant           ctermfg=215
+  hi String             ctermfg=255
+  hi Character          ctermfg=255
   hi Number             ctermfg=107
   hi Boolean            ctermfg=168
   hi Float              ctermfg=107
 
-  hi Identifier         ctermfg=106
-  hi Function           ctermfg=073
+  hi Identifier         ctermfg=105
+  hi Function           ctermfg=122
 
-  hi Statement          ctermfg=175
-"  hi Conditional
+  hi Statement          ctermfg=225
 "  hi Repeat
 "  hi Label
-  hi Operator           ctermfg=251
+  hi Operator           ctermfg=252
 "  hi Keyword
   hi Exception          ctermfg=196
 
 
-  hi PreProc            ctermfg=211
-"  hi Include
-"  hi Define
+  hi PreProc            ctermfg=225
+  hi Include            ctermfg=122
+  hi Define             ctermfg=122
 "  hi Macro
-"  hi PreCondit
+  hi PreCondit          ctermfg=255
 
-  hi Type               ctermfg=073
+  hi Type               ctermfg=212
 "  hi StorageClass
 "  hi Structure
 "  hi Typedef
 
-  hi Special            ctermfg=225
+  hi Special            ctermfg=218
 "  hi SpecialChar
 "  hi Tag
   hi Delimiter          ctermfg=175
@@ -63,28 +62,28 @@ if &t_Co > 255
 
 """ 
 
-  hi Todo               cterm=underline ctermfg=015 ctermbg=244
+  hi Todo               cterm=underline,bold ctermfg=236 ctermbg=228
 
 "  hi ColorColumn
 "  hi Conceal
-"  hi Cursor
+  hi Cursor             ctermbg=195
 "  hi CursorIM
 "  hi CursorColumn
 "  hi CursorLine
-  hi Directory          ctermfg=251
+  hi Directory          ctermfg=212
 "  hi DiffAdd
 "  hi DiffChange
 "  hi DiffDelete
 "  hi DiffText
-  hi EndOfBuffer        ctermfg=73 ctermbg=none
+  hi EndOfBuffer        ctermfg=245 ctermbg=none
   hi ErrorMsg           cterm=standout ctermfg=132 ctermbg=251
   hi VertSplit          ctermfg=244 ctermbg=244
   hi Folded             ctermbg=none
 "  hi FoldColumn
-  hi SignColumn         cterm=standout ctermfg=235 ctermbg=205
+  hi SignColumn         cterm=standout ctermfg=238 ctermbg=198
 "  hi IncSearch
-  hi LineNr             ctermfg=073 ctermbg=none
-  hi CursorLineNr       ctermfg=212 ctermbg=242
+  hi LineNr             ctermfg=066 ctermbg=none
+  hi CursorLineNr       ctermfg=182 ctermbg=236
   hi MatchParen         cterm=reverse ctermfg=205 ctermbg=123
   hi ModeMsg            ctermfg=175
   hi MoreMsg            ctermfg=073
